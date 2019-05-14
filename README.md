@@ -12,10 +12,10 @@ libpq library instead of the default dynamic link.
 Just copy the psycopg2 directory into your AWS Lambda zip package.
 
 #### Python 3.6
-Just copy the psycopg2-3.6 directory into your AWS Lambda project and rename it to psycopg2 before creating your AWS Lambda zip package.
-rename 'psycopg2-3.6' to 'psycopg2'
-move the folder 'psycopg2' to the root folder containing the lambda function (.py file which uses psycopg2)
-lamda function .py file should contain 'import psycopg2'
+- Just copy the psycopg2-3.6 directory into your AWS Lambda project and rename it to psycopg2 before creating your AWS Lambda zip package.
+- Rename **'psycopg2-3.6'** to **'psycopg2'**
+- Move the folder 'psycopg2' to the root folder containing the lambda function (.py file which uses psycopg2)
+- lamda function *.py* file should contain '*import psycopg2*'
 
 
 ### Instructions on compiling this package from scratch
